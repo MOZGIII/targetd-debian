@@ -1,0 +1,13 @@
+Source: targetd
+Maintainer: MOZGIII <mike-n@narod.ru>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://github.com/agrover/targetd
+
+Package: python3-targetd
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Linux remote storage API daemon
+
