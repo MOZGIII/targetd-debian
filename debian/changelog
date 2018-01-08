@@ -1,3 +1,19 @@
+targetd (0.8.8-1) UNRELEASED; urgency=medium
+
+  [ MOZGIII ]
+  * Updated homepage URL at setup.py
+  * Updated version to 0.8.6 at setup.py
+  * Added patches to correct setup.py for 0.8.6
+  * Corrected debian dependencies
+  * Corrected Build-Depends at debian/control
+
+  [ Andy Grover ]
+  * bump to 0.8.8 to synchronize version and tags
+
+  [ MOZGIII ]
+
+ -- MOZGIII <mike-n@narod.ru>  Mon, 08 Jan 2018 22:03:17 +0300
+
 targetd (0.8.6-1) unstable; urgency=low
 
   * source package automatically created by stdeb 0.8.5
